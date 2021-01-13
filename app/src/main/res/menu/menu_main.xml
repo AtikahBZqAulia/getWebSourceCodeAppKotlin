@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.getwebpagesourcecode2.MainActivity">
+    <item
+        android:id="@+id/https_click"
+        android:orderInCategory="1"
+        android:title="@string/https_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/http_click"
+        android:orderInCategory="2"
+        android:title="@string/http_option"
+        app:showAsAction="withText" />
+</menu>
